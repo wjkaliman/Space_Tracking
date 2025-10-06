@@ -1,7 +1,11 @@
 import requests
 
-username = 'wjkaliman@gmail.com'
-password = 'Canon2025Ball2026'
+import os
+USERNAME = os.getenv("SPACETRACK_USER")
+PASSWORD = os.getenv("SPACETRACK_PASS")
+
+from dotenv import load_dotenv
+load_dotenv()
 
 url = 'https://www.space-track.org/basicspacedata/query/class/tle_latest/NORAD_CAT_ID/25544/format/tle'
 
