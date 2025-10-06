@@ -1,0 +1,10 @@
+.env
+.env.*
+*.env
+.env
+.env.*
+*.env
+
+# Data/outputs
+*.png
+de421.bsp
