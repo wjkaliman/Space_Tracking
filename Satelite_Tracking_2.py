@@ -8,8 +8,8 @@ import cartopy.crs as ccrs
 import cartopy.feature as cfeature
 
 # 🔐 Credentials
-USERNAME = os.getenv("SPACETRACK_USER", "wjkaliman@gmail.com")
-PASSWORD = os.getenv("SPACETRACK_PASS", "Canon2025Ball2026")
+USERNAME = os.getenv("SPACETRACK_USER")
+PASSWORD = os.getenv("SPACETRACK_PASS")
 
 # 🛰️ Satellite NORAD IDs
 SAT_IDS = [25544, 43013, 39444]  # ISS, NOAA-20, etc.
